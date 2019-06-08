@@ -17,7 +17,8 @@ export class AppComponent {
       <i>Hello from <b>HTML</b></i>
     `;
     // TODO: Do our part to make sure HTML is safe
-    this.htmlProperty = sanitizer.bypassSecurityTrustHtml(this.stringWithHtml);
-
+    this.htmlProperty = sanitizer.bypassSecurityTrustHtml(
+      this.stringWithHtml
+    );
   }
 }
