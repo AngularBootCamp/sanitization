@@ -14,7 +14,7 @@ export class AppComponent {
       <button onClick="console.log('hello from old-school HTML/JS');">
         Press Me
       </button>
-      <i>Hello from <b>HTML</b></i>
+      <em>Hello from <strong>HTML</strong></em>
     `;
     // TODO: Do our part to make sure HTML is safe
     this.htmlProperty = sanitizer.bypassSecurityTrustHtml(
